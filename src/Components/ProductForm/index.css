@@ -1,0 +1,163 @@
+/* .control-label{
+    color: red;
+} */
+/* .form-control{
+    margin-right: -15px;
+    margin-left: -15px;
+    border: none;
+} */
+/* .form-area{
+    margin-right: -15px;
+    margin-left: -15px;
+    border: none;
+}
+.form-control::before{
+    display: table;
+    content: " ";
+}
+.control-label{
+    padding-top: 7px;
+    margin-bottom: 0;
+    text-align: right;
+}
+.control-label-star{
+    min-height: 1px;
+    padding-left: 10px;
+    padding-right: 10px
+} */
+/* .panel{
+    float: left;
+    width: 100%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 0px;
+    border-top: 2px solid #E5E5E5;
+    margin-bottom: 20px;
+    position: relative;
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.panel-success{
+    border-top-color:#95b75d ;
+}
+.panel-heading{
+    background: #F5F5F5;
+    border-color: #E5E5E5;
+}
+.panel .panel-heading .panel-title{
+    margin-left: 7px;
+}
+.panel-title{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    display: block;
+    float: left;
+    color: #434a54;
+} */
+/* .input-group{
+    position: relative;
+    display: table;
+    border-collapse: separate;
+}
+.input-group .form-control{
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 100%;
+    margin-bottom: 0;
+} */
+select[multiple]{
+    height: auto;
+}
+.table .table-bordered{
+    border: 1px solid #ddd;
+}
+.label{
+    border-radius: 2px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+.label-danger{
+    background-color: #b64645;
+}
+.pannel-body{
+    padding: 15px;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+.table{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.table-bordered{
+    border: 1px solid #ddd;
+}
+.panel-image{
+    float: left;
+    width: 100%;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 0px;
+    border-top: 2px solid #E5E5E5;
+    margin-bottom: 20px;
+    position: relative;
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.2);
+}
+.cropControls {
+    z-index: 2;
+    position: absolute;
+    height: 30px;
+    display: block;
+    /* top: -31px; */
+    top: -1px;
+    right: -1px;
+    font-family: sans-serif;
+    background-color: rgba(0,0,0,0.35);
+}
+.cropControls i {
+    display: block;
+    float: left;
+    margin: 0;
+    cursor: pointer;
+    background-image: url(../../../public/img/cropperIcons.png);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 20px;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+}
+.cropControls i.cropControlCrop {
+    background-position: -120px 0px;
+}
+.cropControls i.cropControlReset {
+    background-position: -180px 0px;
+}
+.cropControls i.cropControlRotateRight {
+    background-position: -240px 0px;
+}
+.cropControls i.cropControlRotateLeft {
+    background-position: -210px 0px;
+}
+.cropControls i.cropControlZoomMuchOut {
+    background-position: -90px 0px;
+}
+.cropControls i.cropControlZoomOut {
+    background-position: -60px 0px;
+}
+.cropControls i.cropControlZoomIn {
+    background-position: -30px 0px;
+}
